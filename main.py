@@ -8,8 +8,8 @@ from pprint import pprint
 
 OAUTH_AUTHORIZE_URL= 'https://accounts.spotify.com/authorize'
 OAUTH_TOKEN_URL= 'https://accounts.spotify.com/api/token'
-client_id = "dc553f195eed415dae3fd2eee33d1f1e"
-client_secret = "00688d496c48419bbc423f836bd764d1"
+client_id = "user-id"
+client_secret = "user-secret"
 redirect_url = "http://127.0.0.1:5500/"
 play_list_id = "535ayeZP2jasdVA5NvexoX"
 
