@@ -13,6 +13,8 @@ client_secret = "user-secret"
 redirect_url = "http://127.0.0.1:5500/"
 play_list_id = "535ayeZP2jasdVA5NvexoX"
 
+
+#-------Generate a token-----------#
 sp = spotipy.Spotify(
     auth_manager=SpotifyOAuth(
         scope="playlist-modify-private",
@@ -23,6 +25,8 @@ sp = spotipy.Spotify(
         cache_path="token.txt"
     )
 )
+
+#-----------------------------------#
 user_id = sp.current_user()["id"]
 
 
